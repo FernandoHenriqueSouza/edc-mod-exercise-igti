@@ -1,5 +1,5 @@
 variable "base_backet_name" {
-  default = "datalake-igti-tf"
+  default = "raw_data"
 }
 
 variable "ambiente" {
@@ -9,3 +9,8 @@ variable "ambiente" {
 variable "numero_conta" {
   default = "724299873603"
 }
+
+variable "aws_region" {
+  default = "us-east-2"
+}
+
