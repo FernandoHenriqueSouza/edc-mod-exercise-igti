@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "dl" {
+resource "aws_s3_bucket" "dledc" {
   bucket = "row_data_xp_edc"
   acl    = "private"
 
