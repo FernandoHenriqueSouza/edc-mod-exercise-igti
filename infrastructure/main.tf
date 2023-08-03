@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "dledc" {
-  bucket = "row_data_xp_edc"
+  bucket = "row-data-xp-edc"
   acl    = "private"
 
   tags = {
