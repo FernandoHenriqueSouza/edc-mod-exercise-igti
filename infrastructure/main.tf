@@ -1,8 +1,8 @@
-resource "aws_s3_bucket" "datalake" {
+resource "aws_s3_bucket" "dl" {
   bucket = "row_data_xp_edc"
   acl    = "private"
 
-   tags = {
+  tags = {
     IES   = "IGTI"
     CURSO = "EDC"
   }
